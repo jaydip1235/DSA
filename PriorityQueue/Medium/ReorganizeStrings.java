@@ -1,3 +1,7 @@
+package Medium;
+// https://leetcode.com/problems/reorganize-string/
+
+import java.util.*;
 public class ReorganizeStrings {
     public String reorganizeString(String s) {
         String ans="";

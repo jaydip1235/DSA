@@ -1,3 +1,5 @@
+package Easy;
+
 // https://leetcode.com/problems/largest-perimeter-triangle/
 import java.util.*;
 
