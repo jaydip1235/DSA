@@ -3,7 +3,6 @@ import java.util.*;
 import java.io.*;
 
 public class AverageOfLevels {
-    
 
     public class TreeNode {
         int val;
