@@ -1,6 +1,20 @@
 // https://leetcode.com/problems/minimum-absolute-difference-in-bst/
 import java.util.*;
 public class MinimumAbsoluteDiff {
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+       }
+    }
+
     public int getMinimumDifference(TreeNode root) {
         ArrayList<Integer> arr = new ArrayList<>();
         Make(root,arr);

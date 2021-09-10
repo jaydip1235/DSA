@@ -19,7 +19,7 @@ public class LCAOfBST {
         if(p.val<node.val && q.val<node.val){
             return  lowestCommonAncestor(node.left,p,q);
         }
-        if(p.val>node.val && q.val>node.data){
+        if(p.val>node.val && q.val>node.val){
             return  lowestCommonAncestor(node.right,p,q);
         }
         return node;
