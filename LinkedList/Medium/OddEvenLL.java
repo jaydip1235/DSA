@@ -20,14 +20,6 @@ public class OddEvenLL {
             flag++;
             temp=temp.next;
         }
-        if(et==eh){
-            ot.next=null;
-            return oh.next;
-        }
-        else if(ot==oh){
-            et.next=null;
-            return eh.next;
-        }
         et.next = null;
         ot.next = eh.next;
         return oh.next;
