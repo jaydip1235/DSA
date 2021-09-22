@@ -5,6 +5,16 @@
 
 import java.util.*;
 public class SubtractTwoLL {
+
+    public static class ListNode {
+        int val = 0;
+        ListNode next = null;
+
+        ListNode(int val) {
+            this.val = val;
+        }
+    }
+
     public static int size(ListNode head) {
         ListNode temp = head;
         int count = 0;
