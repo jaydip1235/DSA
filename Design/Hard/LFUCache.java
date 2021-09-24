@@ -144,7 +144,6 @@ public class LFUCache {
             nextNode.prev = curNode;
             listSize++;
         }
-
         /** remove input node and decrease list size by 1**/
         public void removeNode(DLLNode curNode) {
             DLLNode prevNode = curNode.prev;
