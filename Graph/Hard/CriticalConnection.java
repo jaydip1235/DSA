@@ -1,6 +1,5 @@
 //https://leetcode.com/problems/critical-connections-in-a-network/
 import java.util.*;
-
 public class CriticalConnection {
     int[]disc;
     int[]low;
