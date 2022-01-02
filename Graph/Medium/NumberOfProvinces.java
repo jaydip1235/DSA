@@ -1,5 +1,6 @@
 // https://leetcode.com/problems/number-of-provinces/
 import java.util.*;
+
 public class NumberOfProvinces {
     int[] parent;
     int[] rank;
