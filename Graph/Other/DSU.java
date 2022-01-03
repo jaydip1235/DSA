@@ -43,18 +43,7 @@ public class DSU {
         int ly = find(y);
 
         //merging
-        if(lx != ly) {
-            if(rank[lx] < rank[ly]) {
-                par[lx] = ly;
-            }
-            else if(rank[lx] > rank[ly]) {
-                par[ly] = lx;
-            }
-            else {
-                par[lx] = ly;
-                rank[ly]++;
-            }
-        }
+
     }
 
     public static int find(int x) {
