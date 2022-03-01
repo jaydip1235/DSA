@@ -12,6 +12,5 @@ public class TwoKeyboard{
         }
         if(n!=1)ans+=n;
         return ans;
-        
     }
 }
