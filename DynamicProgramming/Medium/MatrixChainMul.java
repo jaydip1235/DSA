@@ -10,6 +10,7 @@ public class MatrixChainMul {
                     dp[i][j] = arr[i] * arr[j] * arr[j + 1];
                 } else {
                     int min = Integer.MAX_VALUE;
+                    
                     for (int k = i; k < j; k++) {
                         int lc = dp[i][k];
                         int rc = dp[k + 1][j];
