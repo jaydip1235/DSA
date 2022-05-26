@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/palindromic-substrings/
 public class NoOfPalindromicSubs{
        public int countSubstrings(String s) {
         int ans=0;
