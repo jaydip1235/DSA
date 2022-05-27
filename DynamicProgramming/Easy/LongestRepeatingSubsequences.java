@@ -1,3 +1,4 @@
+// https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence2004/1/
 public class LongestRepeatingSubsequences {
     public int LongestRepeatingSubsequence(String str) {
         int dp[][] = new int[str.length() + 1][str.length() + 1];
