@@ -1,5 +1,5 @@
 // https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup/dynamic-programming/cps-official/ojquestion
-import jana.util.*;
+import java.util.*;
 import java.io.*;
 public class NoOfPalindromicSubsequence {
     public static void main(String[] args) throws Exception {
