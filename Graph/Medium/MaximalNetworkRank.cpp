@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/maximal-network-rank/
-#include<stdc++.h>
+#include<bits/stdc++.h>
 class Solution {
 public:
     int maximalNetworkRank(int n, vector<vector<int>>& roads) {
