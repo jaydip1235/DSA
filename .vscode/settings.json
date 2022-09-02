@@ -9,6 +9,7 @@
         "xutility": "cpp",
         "vector": "cpp",
         "utility": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "xstddef": "cpp"
     }
 }
