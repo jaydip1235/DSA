@@ -11,6 +11,7 @@
         "utility": "cpp",
         "ios": "cpp",
         "xstddef": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "queue": "cpp"
     }
 }
