@@ -12,6 +12,16 @@
         "ios": "cpp",
         "xstddef": "cpp",
         "cstdlib": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "random": "cpp",
+        "regex": "cpp",
+        "stack": "cpp",
+        "type_traits": "cpp",
+        "valarray": "cpp",
+        "xstring": "cpp"
     }
 }
