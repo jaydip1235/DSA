@@ -22,6 +22,7 @@
         "stack": "cpp",
         "type_traits": "cpp",
         "valarray": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "algorithm": "cpp"
     }
 }
