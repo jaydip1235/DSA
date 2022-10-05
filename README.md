@@ -10,6 +10,6 @@
  • PR will be merged only on 100% correct solution of a particular problem. Same questions added twice will not be merged.
 
 ## Contibutors
-<a href = "https://github.com/jaydip1235/DSA/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = jaydip1235/DSA"/>
+<a href="https://github.com/jaydip1235/DSA/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jaydip1235/DSA" />
 </a>
