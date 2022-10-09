@@ -18,7 +18,9 @@ class TreeNode {
     }
 }
 
-
+//hackotber
+int hack;
+cin<<hack;
 class MorrisTraversal {
     static List<Integer> inorderTraversal(TreeNode root) {
         ArrayList<Integer> result = new ArrayList<>();
