@@ -1,4 +1,4 @@
-https://practice.geeksforgeeks.org/problems/the-painters-partition-problem1535/0
+//https://practice.geeksforgeeks.org/problems/the-painters-partition-problem1535/0
 class PaintersPartitionProblemII{
     static long minTime(int[] arr,int n,int k){
         //code here
