@@ -25,6 +25,7 @@
         "xstring": "cpp",
         "algorithm": "cpp",
         "map": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "forward_list": "cpp"
     }
 }
