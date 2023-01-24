@@ -27,3 +27,37 @@ public:
         return -1;
     }
 };
+
+class Solution
+{
+public:
+    int maxLen(vector<int> &arr, int n)
+    {
+        map<int, int> mp;
+        vector<int> pre(n, 0);
+        pre[0] = arr[0];
+        mp[arr[0]] = 0;
+        int maxi = 0;
+
+        for (int i = 1; i < n; i++)
+        {
+            pre[i] = pre[i - 1] + arr[i];
+            if (pre[i] == 0)
+            {
+                maxi = max(maxi, i + 1);
+            }
+            else
+            {
+                if (mp.find(pre[i]) == mp.end())
+                {
+                    mp[pre[i]] = i;
+                }
+                else
+                {
+                    maxi = max(maxi, i - mp[pre[i]]);
+                }
+            }
+        }
+        return maxi;
+    }
+};
