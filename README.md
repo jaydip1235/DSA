@@ -1,6 +1,6 @@
 # DSA solutions of various platforms
 
-### This is one of the repository of hacktoberfest 2022, feel free to contribute 💻
+### This is one of the repository of hacktoberfest 2023, feel free to contribute 💻
 
 ## Note : 
  • Do create your profile here https://hacktoberfest.com/ before raising a pull request
