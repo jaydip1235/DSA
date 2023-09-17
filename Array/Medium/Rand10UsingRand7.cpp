@@ -5,6 +5,6 @@ public:
     int rand10() {
         int temp=(rand7()-1)*7+(rand7());
         if(temp>=41)return rand10();
-        return temp%10+1;
+        return temp%10+1; 
     }
 };
