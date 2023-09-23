@@ -8,7 +8,7 @@ public:
     if (n1 > n2) return findMedianSortedArrays(b, a);
 
     int n = n1 + n2; //total length
-    int left = (n1 + n2 + 1) / 2; //length of left half  
+    int left = (n1 + n2 + 1) / 2; //length of left half
     //apply binary search:
     int low = 0, high = n1;
     while (low <= high) {
