@@ -13,7 +13,7 @@ public:
     int low = 0, high = n1;
     while (low <= high) {
         int mid1 = (low + high) >> 1;
-        int mid2 = left - mid1;
+        int mid2 = left - mid1; 
         //calculate l1, l2, r1 and r2;
         int l1 = INT_MIN, l2 = INT_MIN;
         int r1 = INT_MAX, r2 = INT_MAX;
