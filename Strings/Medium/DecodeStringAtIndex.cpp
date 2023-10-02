@@ -10,9 +10,9 @@ public:
             if (isdigit(S[i]))
                 N /= S[i] - '0', K %= N;
             else if (K % N-- == 0)
-                return string(1, S[i]);
+                return string(1, S[i]); 
         return "lee215";      
     }
 
-    
+
 };
