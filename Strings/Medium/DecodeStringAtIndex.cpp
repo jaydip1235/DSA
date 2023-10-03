@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/decoded-string-at-index
+
 #include<bits/stdc++.h>
 class Solution {
 public:
