@@ -2,7 +2,7 @@
 
 #include<bits/stdc++.h>
 class Solution {
-    
+
 public:
         string decodeAtIndex(string S, int K) {
         long N = 0, i;
